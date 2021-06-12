@@ -1,0 +1,49 @@
+선형 검색
+
+배열의 인덱스를 처음부터 하나씩 증가시키면서 검색
+
+이진 검색
+
+배열이 정렬 되어 있다면 중간 인덱스부터 시작, 값을 비교해 작으면 왼쪽 크면 오른쪽
+
+같은 방식으로 검색 (업다운 처럼)
+
+버블 정렬
+
+두 개의 인접한 자료 값을 비교하면서 위치를 교환
+
+선택 정렬
+
+가장 작은 수를 찾아 가장 첫번째 위치와 교환
+
+재귀 함수
+
+함수가 본인 스스로를 호출
+
+병합 정렬
+
+원소가 한개가 될 때까지 반으로 나누다가 다시 합쳐나가며 정렬
+
+Big O 실행시간의 상한선 (괄호 안의 내용은 횟수를 의미한다.)
+
+- O(n^2) bubble sort (버블 정렬), selection sort (선택 정렬)
+- O(n log n) merge sort (병합 정렬)
+- O(n) linear search (선형 검색)
+- O(log n) binary search (이진 검색)
+- O(1)
+
+Big Ω 실행시간의 하한선
+
+- Ω(n^2) selection sort (선택 정렬)
+- Ω(n log n) merge sort (병합 정렬)
+- Ω(n) buble sort (버블 정렬)
+- Ω(log n)
+- Ω(1) linear search (선형 검색), binary search (이진 검색)
+
+Θ (Theta) 실행시간의 상한선과 하한선이 같을 때
+
+- Θ(n^2) selection sort (선택 정렬)
+- Θ(n log n) merge sort (병합 정렬)
+- Θ(n)
+- Θ(log n)
+- Θ(1)
